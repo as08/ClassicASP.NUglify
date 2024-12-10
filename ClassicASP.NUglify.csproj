@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>NUglify</RootNamespace>
+    <AssemblyName>ClassicASP.NUglify</AssemblyName>
+	<SignAssembly>true</SignAssembly>
+	<AssemblyOriginatorKeyFile>ClassicASP.NUglify.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUglify" Version="1.21.10" />
+  </ItemGroup>
+
+</Project>
